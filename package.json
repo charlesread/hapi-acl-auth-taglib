@@ -1,6 +1,6 @@
 {
   "name": "hapi-acl-auth-taglib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Taglib for Marko to be used in concert with hapi-acl-auth",
   "keywords": [
     "hapi",

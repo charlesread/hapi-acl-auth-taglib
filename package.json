@@ -1,0 +1,31 @@
+{
+  "name": "hapi-acl-auth-taglib",
+  "version": "0.0.1",
+  "description": "Taglib for Marko to be used in concert with hapi-acl-auth",
+  "keywords": [
+    "hapi",
+    "hapi-acl-auth",
+    "taglib",
+    "acl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charlesread/hapi-acl-auth-taglib"
+  },
+  "bugs": {
+    "url": "https://github.com/charlesread/hapi-acl-auth/issues",
+    "email": "charles@charlesread.com"
+  },
+  "main": "",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Charles Read",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}

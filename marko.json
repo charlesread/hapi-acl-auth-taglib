@@ -1,0 +1,13 @@
+{
+  "tags": {
+    "haa:if": {
+      "renderer": "./lib/if",
+      "attributes": {
+        "roles": "array",
+        "userRoles": "array",
+        "not": "array",
+        "mode": "string"
+      }
+    }
+  }
+}

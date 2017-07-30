@@ -28,6 +28,8 @@ npm install --save hapi-acl-auth-taglib
 
 ### `haa:if`
 
+Used to render, or not, the body of the tab based on which roles a user possesses and which are allowed, or not allowed.
+
 #### Attributes
 
 ##### `userRoles`

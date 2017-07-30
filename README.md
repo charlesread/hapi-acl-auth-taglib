@@ -1,7 +1,23 @@
 # hapi-acl-auth-taglib
 
 Taglib for Marko to be used in concert with [`hapi-acl-auth`](https://www.npmjs.com/package/hapi-acl-auth), or not.  If you have an array of roles that a user possesses, and an array of roles the are necessary, you can use this taglib.
- 
+
+<!-- toc -->
+
+- [Installation](#installation)
+- [Tags](#tags)
+  * [`haa:if`](#haaif)
+    + [Attributes](#attributes)
+      - [`userRoles`](#userroles)
+      - [`roles`](#roles)
+      - [`mode`](#mode)
+      - [`not`](#not)
+    + [Example](#example)
+      - [server.js](#serverjs)
+      - [index.marko](#indexmarko)
+
+<!-- tocstop -->
+
 ## Installation
 
 ```bash
@@ -10,7 +26,7 @@ npm install --save hapi-acl-auth-taglib
 
 ## Tags
 
-### `<haa:if>`
+### `haa:if`
 
 #### Attributes
 
@@ -32,7 +48,7 @@ An array of roles.  The body of the tag will only be displayed if the user does 
 
 #### Example
 
-#### server.js
+##### server.js
 
 ```js
 'use strict'
@@ -112,7 +128,7 @@ server.register(
 )
 ```
 
-#### index.marko
+##### index.marko
 
 ```html
 <html>
